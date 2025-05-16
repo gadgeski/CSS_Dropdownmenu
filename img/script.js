@@ -1,5 +1,5 @@
 // 「.menu」内のLi要素のうち.sub-menuを持つものを取得
-const menuItems = document.querySelectorAll(".menu li:has(> .sub-menu)");
+const menuItems = document.querySelectorAll(".menu li:has(>.sub-menu)");
 
 menuItems.forEach((item) => {
   item.addEventListener("click", (e) => {
@@ -10,7 +10,7 @@ menuItems.forEach((item) => {
     const subMenu = item.querySelector(".sub-menu");
     if (subMenu) {
       // .activeクラス ON/OFF で表示/非表示切り替え
-      subMenu.classList.toggle(active);
+      subMenu.classList.toggle("active");
     }
   });
 });
