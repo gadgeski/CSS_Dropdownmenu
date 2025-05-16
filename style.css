@@ -56,12 +56,12 @@ h2 {
 Hoverで開けるDropdownmenu
 
 ======================================*/
-.menu-click .sub-menu {
+.menu-hover .sub-menu {
   transition: scale 0.4s;
   transform-origin: center top;
   scale: 1 0;
 }
 
-.menu-click .sub-menu.active {
+.menu-hover li:has(> .sub-menu):hover .sub-menu {
   scale: 1;
 }
