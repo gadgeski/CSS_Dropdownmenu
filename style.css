@@ -13,7 +13,7 @@ Menu共通
 }
 
 .menu a {
-  color: #0bd;
+  color: #ffa500;
   padding: 0.5rem;
   text-decoration: none;
   transition: color 0.4s;
@@ -25,7 +25,7 @@ Menu共通
   top: 2.5rem;
   padding: 0;
   list-style: none;
-  background: #0bd;
+  background: #ffa500;
   font-size: 1rem;
 }
 
@@ -36,7 +36,7 @@ Menu共通
 }
 
 .sub-menu a:hover {
-  background-color: #05b;
+  background-color: #ff8c00;
 }
 /*======================================
 
