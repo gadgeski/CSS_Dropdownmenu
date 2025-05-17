@@ -4,6 +4,24 @@ body {
   background: url(img/Mainvisual_Fruits2025.png) no-repeat;
   background-size: cover;
 }
+/*======================================
+
+Img
+
+======================================*/
+
+img {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+  object-position: 50% 0;
+}
+
+/*======================================
+
+Box
+
+======================================*/
 .box {
   width: 720px;
   height: 480px;
