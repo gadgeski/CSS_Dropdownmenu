@@ -1,20 +1,19 @@
-body {
-  width: 100%;
-  height: 100vh;
-  background: url(img/Mainvisual_Fruits2025.png) no-repeat;
-  background-size: cover;
-}
 /*======================================
 
-Img
+Hero
 
 ======================================*/
+.hero {
+  width: 100%;
+  height: 500px;
+  background: url(img/Mainvisual_Fruits2025.png) no-repeat;
+}
 
 img {
   width: inherit;
   height: inherit;
   object-fit: cover;
-  object-position: 50% 0;
+  object-position: 60% 0;
 }
 
 /*======================================
